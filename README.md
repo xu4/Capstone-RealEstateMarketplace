@@ -31,8 +31,11 @@ truffle test ./test/TestSolnSquareVerifier.js
 
 ## Contract Addresses
 ERC721MintableComplete:	0x549FB9430Eb7d38E699af40661dc883e99AbF07C
+
 Verifier:	0x3FaA49e1095E079e50ada9f22f54C3F850454fe4
+
 SolnSquareVerifier:	0x95b64221f6B2BF8D9B59643175807e675E40B8F3
+
 OpenSea MarketPlace Storefront link: https://rinkeby.opensea.io/assets/realestatemarketv15
 
 * Screenshot of the storefront:
