@@ -1,9 +1,11 @@
-# Udacity Blockchain Capstone
+# Capstone Real Estate Marketplace
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
+In this project we mint our own tokens to represent the title to the properties. Before we mint a token, we  verify you own the property. We use zk-SNARKs to create a verification system which can prove you have title to the property without revealing that specific information on the property. 
+
+Once the token has been verified we place it on a blockchain market place (OpenSea) for others to purchase. 
 
 
-
+## Test the project
 Clone the folder using git:
 ```
 git clone https://github.com/xu4/Capstone-RealEstateMarketplace.git
@@ -26,14 +28,15 @@ truffle test ./test/TestERC721Mintable.js
 truffle test ./test/TestSquareVerifier.js
 truffle test ./test/TestSolnSquareVerifier.js
 ```
+
 ## Contract Addresses
-ERC721MintableComplete:0x549FB9430Eb7d38E699af40661dc883e99AbF07C
-Verifier:0x3FaA49e1095E079e50ada9f22f54C3F850454fe4
-SolnSquareVerifier:0x95b64221f6B2BF8D9B59643175807e675E40B8F3
+ERC721MintableComplete:	0x549FB9430Eb7d38E699af40661dc883e99AbF07C
+Verifier:	0x3FaA49e1095E079e50ada9f22f54C3F850454fe4
+SolnSquareVerifier:	0x95b64221f6B2BF8D9B59643175807e675E40B8F3
 OpenSea MarketPlace Storefront link: https://rinkeby.opensea.io/assets/realestatemarketv15
 
 * Screenshot of the storefront:
-![Store Front](images/storefrond.png)
+![Store Front](images/storefront.png)
 
 
 * Screenshot showing 5 tokens sold:
@@ -48,9 +51,7 @@ Node v8.12.0
 Web3.js v1.0.0-beta.37
 
 
-# ABI's
-
-### SolnSquareVerifier
+## SolnSquareVerifier ABI's
 
 ```
 [
